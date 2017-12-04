@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+html,body{border: 0px; padding:0px; margin:0px;font-family:"Titillium Web","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+background: #dfe4e8;
+height: 100%; width: 100%;display: block;
+overflow-x: hidden;
+}
+
+header{background: #FFFFFF;padding: 2px; height: 60px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(169,212,118,0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(169,212,118,0.75);
+  box-shadow: 0px 5px 5px 0px rgba(169,212,118,0.75);
+  border-bottom: solid 1px #A9D476;
+}
+
+.logo{float: left; height: 60px; width: 60px;}
+.blur_5{
+  -webkit-filter: blur(5px); /* Safari */
+   filter: blur(5px);
+}
+.ht{line-height: 60px; font-size: 1.8em;}

@@ -1,0 +1,26 @@
+{
+  "name": "Mqtt core",
+  "description": "Node-core- info exchange for IOT Devices",
+  "version": "0.1.0",
+  "keywords": [
+    "mqtt,burningsoul,Gipzonics,RTC,websocket,nodejs,mqtt"
+  ],
+  "repository": {
+  "type": "git",
+  "url": "git@github.com:aaryadev/MQTTCORE.git"
+},
+"license" : "BSD-3-Clause",
+  "author": "Aaryadev/Burningsoul",
+    "dependencies": {
+        "socket.io": "~1.0.6",
+        "node-static"   : "~0.7.7",
+        "mosca":"~2.3.0"
+    },
+    "engines": {
+        "node": "0.10.x"
+    },
+    "scripts": {
+      "start": "server.js"
+    },
+    "main": "server.js"
+}
