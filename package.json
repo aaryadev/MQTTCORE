@@ -16,7 +16,7 @@
         "mosca":"~2.7.0"
     },
     "engines": {
-        "node": "4.4.x"
+        "node": "6.0.x"
     },
     "scripts": {
       "start": "server.js"
