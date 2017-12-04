@@ -19,7 +19,7 @@ var server = require('http').createServer(function(request, response) {
 
 server.listen(process.env.PORT || 9999);
 console.log("Server Started");
-var ms = new mosca.Server(settings);
+/*var ms = new mosca.Server(settings);
 
 ms.on('clientConnected', function(client) {
    console.log('client connected', client.id);
@@ -38,3 +38,4 @@ ms.on('ready', setup);
 function setup() {
   console.log('Mosca server is up and running');
 }
+*/
