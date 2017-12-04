@@ -6,7 +6,7 @@ var deviceCount=0;
 var channels=[];
 
 var settings = {
-  port: rocess.env.PORT || 9999
+  port: process.env.PORT || 9999
 };
 
 
@@ -17,7 +17,7 @@ var server = require('http').createServer(function(request, response) {
     }).resume();
 });
 
-server.listen(rocess.env.PORT || 9999);
+server.listen(process.env.PORT || 9999);
 console.log("Server Started");
 var ms = new mosca.Server(settings);
 
