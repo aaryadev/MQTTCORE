@@ -1,6 +1,6 @@
 var static = require('node-static');
 var file = new static.Server('./UI');
-var mosca = require('mosca');
+//var mosca = require('mosca');
 //vars
 var deviceCount=0;
 var channels=[];
