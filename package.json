@@ -1,5 +1,5 @@
 {
-  "name": "Mqtt core",
+  "name": "MqttCore",
   "description": "Node-core- info exchange for IOT Devices",
   "version": "0.1.0",
   "keywords": [
